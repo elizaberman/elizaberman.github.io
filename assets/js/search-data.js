@@ -434,11 +434,11 @@ ninja.data = [{
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
             },},{
-        id: 'social-cv',
-        title: 'CV',
+        id: 'social-email',
+        title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("/assets/pdf/example_pdf.pdf", "_blank");
+          window.open("mailto:%65%6C%69%7A%61.%62%65%72%6D%61%6E@%6E%79%75.%65%64%75", "_blank");
         },
       },{
         id: 'social-linkedin',
