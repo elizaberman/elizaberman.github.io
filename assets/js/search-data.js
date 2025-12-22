@@ -459,7 +459,7 @@ ninja.data = [{
         title: 'ORCID',
         section: 'Socials',
         handler: () => {
-          window.open("https://orcid.org/0009-0009-5549-4822", "_blank");
+          window.open("https://orcid.org/0009000955494822", "_blank");
         },
       },{
         id: 'social-scholar',
