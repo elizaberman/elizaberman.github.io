@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: First-year PhD student at NYU Courant Institute
+subtitle: 
 
 profile:
   align: right
