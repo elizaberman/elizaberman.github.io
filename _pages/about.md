@@ -24,6 +24,6 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I’m a first-year PhD student at NYU Courant advised by Professors [Daniel Neill](https://wp.nyu.edu/ml4good/) and [Emily Black](https://emblack.github.io/). My research centers on fair, transparent, and accountable AI systems and their real-world applications and impacts, with a current focus on NLP.
+I’m a first-year PhD student at NYU Courant advised by Professors [Daniel Neill](https://wp.nyu.edu/ml4good/) and [Emily Black](https://emblack.github.io/). My research centers on fair, transparent, and accountable AI systems and their real-world applications and impacts, with a focus on NLP.
 
 Before joining NYU, I worked with Professor [Carsten Eickhoff](https://health-nlp.com/) at Brown University and the University of Tübingen on NLP for healthcare, specifically focusing on LLMs in precision oncology. 
