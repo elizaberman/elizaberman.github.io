@@ -1,6 +1,10 @@
 metadata:
-  last_updated: '2026-04-06'
+  last_updated: '2026-04-20'
 papers:
+  VMLvBQ8AAAAJ:u-x6o8ySG0sC:
+    citations: 0
+    title: Attribution Bias in Large Language Models
+    year: '2026'
   VMLvBQ8AAAAJ:u5HHmVD_uO8C:
     citations: 10
     title: 'Retrieval augmented therapy suggestion for molecular tumor boards: algorithmic development and validation study'
