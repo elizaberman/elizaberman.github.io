@@ -6,17 +6,33 @@ Personal site, built with plain Jekyll. Edit files on github.com (pencil icon) o
 
 | To change… | Edit |
 | --- | --- |
-| Bio (next to the photo) | `index.md`, below the `---` line |
-| Research section | `index.md`, the `research:` block at the top |
+| Bio (next to the photo) | `_pages/about.md`, below the `---` line |
+| Research section | `_pages/about.md`, the `research:` block at the top |
 | Publications | `_data/publications.yml` (template at the top of the file) |
 | Name, title line, email, link buttons | `_config.yml` |
 | Photo | replace `assets/img/prof_pic.jpg` (same file name) |
 | Colors, fonts, spacing | `assets/css/style.css` |
-| Page structure | `_layouts/home.html` |
+| Page structure | `_layouts/` (`default.html` = top bar + footer, `about.html` = homepage, `page.html` = other pages) |
 
 Bio and research text are Markdown: `**bold**`, `*italics*`, `[link text](https://...)`, and a blank line between paragraphs.
 
 Publications appear in the order they're listed, so add new ones at the top. Your name is bolded in author lists automatically.
+
+## Adding a page
+
+Create a file in `_pages/`, e.g. `_pages/teaching.md`:
+
+```markdown
+---
+layout: page
+title: Teaching
+permalink: /teaching/
+nav: true        # show it in the top bar
+nav_order: 1     # position in the top bar (lower = further left)
+---
+
+Page content in Markdown.
+```
 
 ## Preview locally (optional)
 

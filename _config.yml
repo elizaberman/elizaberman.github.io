@@ -1,7 +1,8 @@
 # ---------------------------------------------------------------
 # Site settings. Edit the values below to change the header and links.
 # Where to edit other things:
-#   Bio + research blurb  ->  index.md
+#   Bio + research blurb  ->  _pages/about.md
+#   New pages             ->  add a file in _pages/ (see README)
 #   Publications          ->  _data/publications.yml
 #   Profile photo         ->  replace assets/img/prof_pic.jpg
 # ---------------------------------------------------------------
@@ -38,5 +39,5 @@ links:
 url: https://elizaberman.github.io
 baseurl: ""
 markdown: kramdown
-include: [.nojekyll]
+include: [_pages, .nojekyll]
 exclude: [README.md, Gemfile, Gemfile.lock, vendor]
