@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ site.name }}</title>
+<meta name="description" content="{{ site.description | strip }}">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+
+<nav>
+  <div class="wrap">
+    <a class="name" href="#">{{ site.short_name }}</a>
+    <ul>
+      <li><a href="#publications">Publications</a></li>
+    </ul>
+  </div>
+</nav>
+
+<main class="wrap">
+  <header class="hero">
+    <div>
+      <h1>{{ site.name }}</h1>
+      <p class="role">{{ site.role }}</p>
+      <div class="bio">
+        {{ content }}
+      </div>
+      <div class="links">
+        {%- for link in site.links %}
+        <a href="{{ link.url }}">{% include icon.html name=link.icon %}{{ link.name }}</a>
+        {%- endfor %}
+      </div>
+    </div>
+    <img class="photo" src="{{ '/assets/img/prof_pic.jpg' | relative_url }}" alt="Portrait of {{ site.short_name }}">
+  </header>
+
+  {%- if page.research %}
+  <section id="research">
+    <h2>Research</h2>
+    <div class="research-text">
+      {{ page.research | markdownify }}
+    </div>
+  </section>
+  {%- endif %}
+
+  <section id="publications">
+    <h2>Publications</h2>
+    {%- assign bolded = '<b>' | append: site.bold_author | append: '</b>' %}
+    {%- for pub in site.data.publications %}
+    <article class="pub">
+      <div class="venue">{{ pub.abbr }}<span>{{ pub.year }}{% if pub.type %} · {{ pub.type }}{% endif %}</span></div>
+      <div>
+        <p class="pub-title">{{ pub.title }}{% if pub.badge %} <span class="badge">{{ pub.badge }}</span>{% endif %}</p>
+        <p class="authors">{{ pub.authors | replace: site.bold_author, bolded }}</p>
+        {%- if pub.venue %}
+        <p class="where">{{ pub.venue }}</p>
+        {%- endif %}
+        {%- if pub.note %}
+        <p class="note">{{ pub.note }}</p>
+        {%- endif %}
+        {%- if pub.links %}
+        <div class="pub-links">
+          {%- for link in pub.links %}
+          <a href="{{ link.url }}">{{ link.name }}</a>
+          {%- endfor %}
+        </div>
+        {%- endif %}
+      </div>
+    </article>
+    {%- endfor %}
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">{{ site.name }} · {{ site.email | replace: "@", " [at] " }}</div>
+</footer>
+
+</body>
+</html>

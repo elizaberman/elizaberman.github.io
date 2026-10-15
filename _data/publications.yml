@@ -1,0 +1,62 @@
+# Publications, shown on the site in the order listed here (put new ones at the top).
+#
+# Copy this template to add one. Only title, authors, abbr, and year are required;
+# delete any line you don't need.
+#
+# - title: Paper Title
+#   authors: Eliza Berman, Coauthor One, Coauthor Two   # your name is bolded automatically
+#   abbr: ICML                    # short label in the left column
+#   year: 2027
+#   type: Poster                  # optional, shown after the year (e.g. Poster, Preprint)
+#   venue: International Conference on Machine Learning (ICML), 2027
+#   badge: Oral                   # optional highlighted tag after the title
+#   note: "*Equal contribution"   # optional small text (use quotes if it has a colon or starts with *)
+#   links:
+#     - name: arXiv
+#       url: https://arxiv.org/abs/...
+#     - name: Code
+#       url: https://github.com/...
+
+- title: Attribution Bias in Large Language Models
+  authors: Eliza Berman, Bella Chang, Daniel B. Neill*, Emily Black*
+  abbr: COLM
+  year: 2026
+  venue: Conference on Language Modeling (COLM), 2026
+  badge: Oral Spotlight
+  note: "Oral spotlight: top 2.8% (24 of 856) · *Co-senior authors"
+  links:
+    - name: arXiv
+      url: https://arxiv.org/abs/2604.05224
+    - name: Code
+      url: https://github.com/elizaberman/attribution-bias-in-llms
+    - name: Dataset · AttriBench
+      url: https://huggingface.co/datasets/bermaneh/AttriBench
+
+- title: "Solver to System: LLM Reasoning Across Representations and Execution in Scientific Simulation"
+  authors: Eliza Berman*, Rohan Subramanian*, Shreya Jha, Lohit Jagarapu, Rajesh Ranganath
+  abbr: NeurIPS WS
+  year: 2026
+  venue: Sim2Science Workshop at NeurIPS, Paris, 2026
+  note: "*Equal contribution"
+  links:
+    - name: OpenReview
+      url: https://openreview.net/forum?id=LSJ237EhQL
+
+- title: "Retrieval Augmented Therapy Suggestion for Molecular Tumor Boards: Algorithmic Development and Validation Study"
+  authors: Eliza Berman, Holly Sundberg Malek, Michael Bitzer, Nisar Malek, Carsten Eickhoff
+  abbr: JMIR
+  year: 2025
+  venue: Journal of Medical Internet Research 27:e64364, 2025
+  links:
+    - name: Paper
+      url: https://doi.org/10.2196/64364
+    - name: PubMed
+      url: http://www.ncbi.nlm.nih.gov/pubmed/40053768
+
+- title: "Leveraging Natural Language Processing to Identify Priorities of Young Sexual and Gender Minority People in a Social Media Group: Implications for Health Interventions"
+  authors: Eliza Berman*, Alexander Chong*, Shruta Rawat, Alpana Dange, Murugesan Sivasubramanian, Vivek Anand, Viraj V. Patel
+  abbr: NYAS
+  year: 2024
+  type: Poster
+  venue: 15th Annual Machine Learning Symposium, New York Academy of Sciences, 2024
+  note: "*Equal contribution"
