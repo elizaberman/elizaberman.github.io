@@ -32,6 +32,9 @@ links:
   - name: LinkedIn
     url: https://www.linkedin.com/in/eliza-berman-2a39861b7
     icon: linkedin
+  - name: CV
+    url: /assets/pdf/Berman_CV.pdf
+    icon: cv
 
 # ---------------------------------------------------------------
 # Technical settings (you shouldn't need to touch these)
