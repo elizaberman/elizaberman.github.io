@@ -33,14 +33,18 @@
       url: https://huggingface.co/datasets/bermaneh/AttriBench
 
 - title: "Solver to System: LLM Reasoning Across Representations and Execution in Scientific Simulation"
-  authors: Eliza Berman*, Rohan Subramanian*, Shreya Jha, Lohit Jagarapu, Rajesh Ranganath
+  authors: Eliza Berman*, Rohan Subramanian*, Shreya Jha, Lohit Jagarapu, Romain Lopez, Rajesh Ranganath
   abbr: NeurIPS WS
   year: 2026
   venue: Sim2Science Workshop at NeurIPS, Paris, 2026
   note: "*Equal contribution"
   links:
-    - name: OpenReview
-      url: https://openreview.net/forum?id=LSJ237EhQL
+    - name: arXiv
+      url: https://arxiv.org/abs/2611.21964
+    - name: Code
+      url: https://github.com/RohanS14/solver2system
+    - name: Datasets
+      url: https://huggingface.co/collections/bermaneh/solver2system-6b03aa2774191f228f4f2a1c
 
 - title: "Retrieval Augmented Therapy Suggestion for Molecular Tumor Boards: Algorithmic Development and Validation Study"
   authors: Eliza Berman, Holly Sundberg Malek, Michael Bitzer, Nisar Malek, Carsten Eickhoff

@@ -13,4 +13,4 @@ research: |
 
 I'm a second-year PhD student in Computer Science at NYU Courant, advised by [Daniel Neill](https://wp.nyu.edu/ml4good/) and [Emily Black](https://emblack.github.io/). I work on making **LLM-assisted decisions more fair and trustworthy** by measuring and understanding bias, instability, and unfaithful reasoning in models. I'm grateful to be supported by the NSF Graduate Research Fellowship.
 
-Before NYU, I worked with [Carsten Eickhoff](https://health-nlp.com/) at Brown University and the University of Tübingen on LLMs for precision oncology, and spent a year in Peru as a Fulbright English Teaching Assistant. I hold a B.A. in Computer Science and Hispanic Studies from Brown. Outside research, I teach English as a Second Language at an adult night school in New York.
+Before NYU, I worked with [Carsten Eickhoff](https://health-nlp.com/) at Brown University and the University of Tübingen on LLMs for precision oncology, and spent a year in Peru as a Fulbright English Teaching Assistant. I hold a B.A. in Computer Science and Hispanic Studies from Brown.
